@@ -7,6 +7,7 @@ import Toggle from './Toggle';
 import Comment from './Comment';
 import LoginControl from './Login';
 import Page from './WarningBanner';
+import NumberList from './ListOfNumbers';
 
 const comment = {
   date: new Date(),
@@ -17,6 +18,8 @@ const comment = {
   }
 };
 
+const numbers = [1, 2, 3, 4, 5];
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -25,6 +28,7 @@ root.render(
     <Toggle />
     <LoginControl />
     <Page />
+    <NumberList numbers={numbers} />
   </React.StrictMode>
 );
 
