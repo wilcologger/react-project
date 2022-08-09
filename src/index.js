@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Clock from './App';
 import reportWebVitals from './reportWebVitals';
+import Toggle from './Toggle';
+import Comment from './Comment';
+
+const comment = {
+  date: new Date(),
+  text: 'I hope you enjoy learning React!',
+  author: {
+    name: 'Hello Kitty',
+    avatarUrl: 'http://placekitten.com/g/64/64'
+  }
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Comment date={comment.date} text={comment.text} author={comment.author} />
+    <Clock />
+    <Toggle />
   </React.StrictMode>
 );
 
