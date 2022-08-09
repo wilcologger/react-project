@@ -5,6 +5,7 @@ import Clock from './App';
 import reportWebVitals from './reportWebVitals';
 import Toggle from './Toggle';
 import Comment from './Comment';
+import LoginControl from './Login';
 
 const comment = {
   date: new Date(),
@@ -21,6 +22,7 @@ root.render(
     <Comment date={comment.date} text={comment.text} author={comment.author} />
     <Clock />
     <Toggle />
+    <LoginControl />
   </React.StrictMode>
 );
 
