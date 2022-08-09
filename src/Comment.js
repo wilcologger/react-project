@@ -1,5 +1,6 @@
 import React from "react";
 
+// Components and Props
 function formatDate(date) {
   return date.toLocaleDateString();
 }

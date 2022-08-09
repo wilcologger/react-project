@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Toggle from './Toggle';
 import Comment from './Comment';
 import LoginControl from './Login';
+import Page from './WarningBanner';
 
 const comment = {
   date: new Date(),
@@ -23,6 +24,7 @@ root.render(
     <Clock />
     <Toggle />
     <LoginControl />
+    <Page />
   </React.StrictMode>
 );
 

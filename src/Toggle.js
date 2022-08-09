@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Handling Events
 class Toggle extends React.Component {
   constructor(props) {
     super(props);

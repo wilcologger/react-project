@@ -1,5 +1,6 @@
 import React from 'react';
 
+// State and Lifecycle
 function FormattedDate(props) {
   return <h2>It is {props.date.toLocaleTimeString()}.</h2>;
 }
