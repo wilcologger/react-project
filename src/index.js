@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css';
-import Clock from './App';
+import App from './App';
+import Clock from './Clock';
 import reportWebVitals from './reportWebVitals';
 import Toggle from './Toggle';
 import Comment from './Comment';
@@ -30,7 +31,7 @@ const numbers = [1, 2, 3, 4, 5];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Comment date={comment.date} text={comment.text} author={comment.author} />
+    {/* <Comment date={comment.date} text={comment.text} author={comment.author} />
     <br/>
     <Clock />
     <br/>
@@ -53,6 +54,8 @@ root.render(
     <Calculator />
     <br />
     <SignUpDialog />
+    <br /> */}
+    <App />
   </React.StrictMode>
 );
 
