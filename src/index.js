@@ -8,6 +8,10 @@ import Comment from './Comment';
 import LoginControl from './Login';
 import Page from './WarningBanner';
 import NumberList from './ListOfNumbers';
+import NameForm from './NameForm';
+import EssayForm from './EssayForm';
+import FlavorForm from './FlavorForm';
+import Reservation from './Reservation';
 
 const comment = {
   date: new Date(),
@@ -24,11 +28,24 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Comment date={comment.date} text={comment.text} author={comment.author} />
+    <br/>
     <Clock />
+    <br/>
     <Toggle />
+    <br/>
     <LoginControl />
+    <br/>
     <Page />
+    <br/>
     <NumberList numbers={numbers} />
+    <br/>
+    <NameForm />
+    <br/>
+    <EssayForm />
+    <br/>
+    <FlavorForm />
+    <br/>
+    <Reservation/>
   </React.StrictMode>
 );
 
