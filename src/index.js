@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './App.css';
 import Clock from './App';
 import reportWebVitals from './reportWebVitals';
 import Toggle from './Toggle';
@@ -12,6 +13,8 @@ import NameForm from './NameForm';
 import EssayForm from './EssayForm';
 import FlavorForm from './FlavorForm';
 import Reservation from './Reservation';
+import Calculator from './Temperature';
+import SignUpDialog from './SignUpDialog';
 
 const comment = {
   date: new Date(),
@@ -45,7 +48,11 @@ root.render(
     <br/>
     <FlavorForm />
     <br/>
-    <Reservation/>
+    <Reservation />
+    <br />
+    <Calculator />
+    <br />
+    <SignUpDialog />
   </React.StrictMode>
 );
 
