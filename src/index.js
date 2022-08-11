@@ -7,29 +7,29 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // eslint-disable-next-line
-import Clock from './Clock';
+import Clock from './Components/Clock';
 // eslint-disable-next-line
-import Toggle from './Toggle';
+import Toggle from './Components/Toggle';
 // eslint-disable-next-line
-import Comment from './Comment';
+import Comment from './Components/Comment';
 // eslint-disable-next-line
-import LoginControl from './Login';
+import LoginControl from './Components/Login';
 // eslint-disable-next-line
-import Page from './WarningBanner';
+import Page from './Components/WarningBanner';
 // eslint-disable-next-line
-import NumberList from './ListOfNumbers';
+import NumberList from './Components/ListOfNumbers';
 // eslint-disable-next-line
-import NameForm from './NameForm';
+import NameForm from './Components/NameForm';
 // eslint-disable-next-line
-import EssayForm from './EssayForm';
+import EssayForm from './Components/EssayForm';
 // eslint-disable-next-line
-import FlavorForm from './FlavorForm';
+import FlavorForm from './Components/FlavorForm';
 // eslint-disable-next-line
-import Reservation from './Reservation';
+import Reservation from './Components/Reservation';
 // eslint-disable-next-line
-import Calculator from './Temperature';
+import Calculator from './Components/Temperature';
 // eslint-disable-next-line
-import SignUpDialog from './SignUpDialog';
+import SignUpDialog from './Components/SignUpDialog';
 
 // eslint-disable-next-line
 const comment = {
