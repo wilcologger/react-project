@@ -1,22 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import './App.css';
 import App from './App';
-import Clock from './Clock';
 import reportWebVitals from './reportWebVitals';
+
+// eslint-disable-next-line
+import Clock from './Clock';
+// eslint-disable-next-line
 import Toggle from './Toggle';
+// eslint-disable-next-line
 import Comment from './Comment';
+// eslint-disable-next-line
 import LoginControl from './Login';
+// eslint-disable-next-line
 import Page from './WarningBanner';
+// eslint-disable-next-line
 import NumberList from './ListOfNumbers';
+// eslint-disable-next-line
 import NameForm from './NameForm';
+// eslint-disable-next-line
 import EssayForm from './EssayForm';
+// eslint-disable-next-line
 import FlavorForm from './FlavorForm';
+// eslint-disable-next-line
 import Reservation from './Reservation';
+// eslint-disable-next-line
 import Calculator from './Temperature';
+// eslint-disable-next-line
 import SignUpDialog from './SignUpDialog';
 
+// eslint-disable-next-line
 const comment = {
   date: new Date(),
   text: 'I hope you enjoy learning React!',
@@ -26,6 +41,7 @@ const comment = {
   }
 };
 
+// eslint-disable-next-line
 const numbers = [1, 2, 3, 4, 5];
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
