@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios.get(url).then(Response => { setDog(Response.data) });
-  }, [url])
+  }, [url]) // <- dependency array
 
   if (dog) {
     return (
